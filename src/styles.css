@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+}
+
+.swal2-title ,.swal2-html-container {
+  font-family: 'Vazirmatn';
+}
